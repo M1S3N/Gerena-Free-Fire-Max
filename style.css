@@ -85,6 +85,11 @@ nav ul li.btn:hover a{
     transition: 1s;
 }
 
+.bar {
+    color: white;
+    display: none;
+}
+
 .content {
     padding-top: 140px;
 }
@@ -214,52 +219,39 @@ nav ul li.btn:hover a{
 
 @media screen and (max-width: 768px) {
 
-    nav ul li.btn a{
-        background: transparent;
-        color: white;
-        border: 1px solid #ffffff;
-        padding: 5px 15px;
-        border-radius: 30px;
-        line-height: 1.4;
-        font-size: 14px;
-        font-weight: 500;
-        margin-left: 260px;
-        margin-top: 20px;
-    }
+    @media screen and (max-width: 768px) {
+        nav ul li:not(.btn) {
+            display: none;
+        }
     
-    nav ul li a {
-        text-decoration: none;
-        color: white;
-        margin-left: 50px;
-        font-size: 15px;
-        font-weight: 400;
-        border-bottom: 2px solid transparent;
-        transition: 500ms;
-    }
-
-    nav ul li {
-        list-style: none;
-        display: inline-flex;
+        nav ul li.btn {
+            display: inline-block;
+            margin-top: 15px;
+            margin-right: 30px;
+        }
     }
 }
 
 @media screen and (max-width: 425px) {
 
-    nav ul li a {
+    nav ul {
         display: none;
+    }
+
+    .footer-penal ul {
+        color: white;
+        text-decoration: none;
+        height: 100px;
+        margin-top: 20px;
     }
     
     .footer-penal img {
-        margin-top: 30px;
+        margin-top: 40px;
         height: 25px;
     }
     
     .footer-penal ul p {
-        font-size: 20px;
+        font-size: 15px;
     }
-
-    .logo-img {
-        width: 150px;
-        margin-right: 10px;
-    }
+    
 }
