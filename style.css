@@ -5,10 +5,6 @@
     font-family: "Khand", sans-serif;
 }
 
-body {
-    overflow-y: auto;
-}
-
 .main-width {
     width: 1400px;
     max-width: 95%;
