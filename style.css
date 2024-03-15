@@ -213,7 +213,7 @@ nav ul li.btn:hover a{
     font-size: 20px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 770px) {
 
     @media screen and (max-width: 768px) {
         nav ul li:not(.btn) {
@@ -228,7 +228,7 @@ nav ul li.btn:hover a{
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 430px) {
 
     nav ul {
         display: none;
