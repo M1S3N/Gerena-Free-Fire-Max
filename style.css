@@ -228,7 +228,7 @@ nav ul li.btn:hover a{
     }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 450px) {
 
     nav ul {
         display: none;
