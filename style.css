@@ -216,29 +216,21 @@ nav ul li.btn:hover a{
 @media screen and (max-width: 768px) {
     /* Adjustments for smaller screens */
     .main-width {
-        width: 95%; /* Use percentage for fluid width */
-        max-width: none; /* Remove max-width for full-width content */
+        width: 95%;
+        max-width: none;
     }
 
     nav ul {
-        display: none; /* Hide navigation links */
+        display: none;
     }
 
     nav ul li.btn {
-        display: inline-block; /* Display download button */
-        margin: 15px auto; /* Adjust margin */
-    }
-
-    .footer-penal {
-        flex-direction: column; /* Stack footer items vertically */
-        align-items: center; /* Center align footer items */
+        display: inline-block;
+        margin: 15px auto;
     }
 
     .footer-penal ul {
-        margin-top: 10px; /* Adjust top margin */
+        margin-top: 10px;
     }
-
-    .footer-penal img {
-        margin-top: 20px; /* Adjust top margin */
-    }
+    
 }
